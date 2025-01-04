@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+ font-family: "Montserrat Underline", serif;
+ margin: 10px;
+ padding: 0;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+
+
+.ai{
+    background-color: black;
+    color: gold;
+}
+
+@media(max-main-with: 768px){
+    .ai{
+        background-color: gray;
+        width: 10px;
+    }
+    }
+    
+
+
+.logo{
+    text-decoration:none;
+    color:gold ;
+   text-transform: uppercase;
+    font-size: xx-large;
+    display: flex;
+  
+}
+
+header{
+    background-color: gray;
+    height: 70px;
+    position:sticky ;
+    border: 1px solid black;
+    
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation a{
+    text-decoration: none;
+    color: gold;
+    font-size: medium;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: blue;
+}
+ 
+ 
+.sid img{
+    width: 350px;
+    height: 5%;
+    margin-top: 10px;
+    border-radius: 60px;
+    /* background-repeat: repeat-x; */
+    justify-content: space-evenly;
+    /* box-shadow: 0 5px 25px gold; */
+       
+}
+
+.address{
+  padding: 100px 60px ;
+  /* flex-direction: wrap; */
+}
+   
+.main1{
+    border-right: 50px gray;
+    color: gold;
+} 
+.sid{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.address{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.main2{
+    border-radius: 15px;
+   background-color: gray;
+   width: 80%;
+   margin-left: 10%;
+   margin-right: 10%;
+   display: grid;
+   
+  
+   height: 500px;
+   overflow: auto;
+   text-align: center;
+   /* box-shadow: 0 5px 25px gold; */
+   justify-self: center;
+}
+.am{
+    display: flex;
+    justify-content: space-between;
+}
+.chmain1{
+    border:10px ;
+    background-color: whitesmoke;
+    width: 40%;
+    height: 250px;
+    margin: 10px;
+    overflow: auto;
+    text-align: center;
+    transition: 2s ease;
+}
+.chmain1 :hover{
+    transform: scale(1/1);
+}
+.chmain2{
+    border:10px ;
+    background-color: whitesmoke;
+    width: 40%;
+    height: 250px;
+    overflow: auto;
+    text-align: center;
+    transition: 0,7s ease;
+}
+.chmain2 :hover{
+    transform: scale(1/1);
+}
+
+.main3{
+    border-radius: 15px;
+    background-color: grey;
+    width: 80%;
+    height: 500px;
+    overflow: auto;
+    text-align: center;
+    /* box-shadow: 0 5px 25px gold; */
+    justify-self: center;
+}
+.main4{
+    border-radius: 15px;
+    align-self: flex-end;
+    background-color: gray;
+    width: 80%;
+    height: 600px;
+    overflow: auto;
+    /* box-shadow: 0 5px 25px gold; */
+    justify-self: center;
+}
+
+.main5{
+    width: 50%;
+    height: 100px;
+
+}
+
+.main6{
+    text-align: center;
+    box-shadow: 0 5px 25px gold;
+
+}
+.main6 i:hover{
+    
+    color: blue;
+}
